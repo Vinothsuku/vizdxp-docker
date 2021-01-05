@@ -67,7 +67,7 @@ def convert_date(df):
         else label, axis=0)
     return df
 
-@st.cache(suppress_st_warning=True, show_spinner=False)
+@st.cache(suppress_st_warning=True, allow_output_mutation=True, show_spinner=False)
 def process_date(df):
     for label,content in df.items():
         if is_datetime64_any_dtype(content):
