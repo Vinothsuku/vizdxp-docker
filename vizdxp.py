@@ -9,7 +9,7 @@ from graphs import scatter_plot, goscatter_plot, bar_plot, pie_plot, heatmap_plo
 
 st.set_page_config(
     page_title="vizdxp",
-    page_icon=":koala:",
+    page_icon=":dolphin:",
     layout="wide",
     initial_sidebar_state="expanded",
  )
