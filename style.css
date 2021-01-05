@@ -1,0 +1,88 @@
+.highlight {
+  border-radius: 5px;
+  color: white;
+  font-size: 23px;
+  width: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.bold {
+  font-weight: 700;
+}
+.fontmain {
+  color: coralred;
+  font-family: Gill Sans Extrabold;
+  font-size: 25px;
+}
+.blue {
+  background-color: lightblue;
+}
+.orange {
+  background-color: coral;
+  text-align: center;
+}
+.grey {
+  background-color: #4d4d4d;
+}
+.teal {
+  background-color: teal;
+}
+.darkblue {
+  background-color: #008ae6;
+}
+.red {
+  background-color: red;
+}
+.fontgreen {
+	color: green;
+}
+.fontcoral {
+	color: coral;
+}
+.fontteal {
+	color: teal;
+	font-size: 24px;
+}
+.fontblue {
+	color: #008ae6;
+}
+
+.stSelectbox>div>div>input {
+    color: blue;
+}
+
+.reportview-container .main .block-container {
+        max-width: 100%;
+        padding-top: 0px;
+    }
+
+.sidebar .sidebar-content {
+      transition: margin-right .3s, box-shadow .3s;
+      font-size: 0px;
+      font-family: Calibri;
+	  padding-top: 0px;
+      width: 300px;
+      color: #008ae6;
+    }
+
+.sidebar .sidebar-content .block-container{
+      font-size: 10px;
+      font-family: Calibri;
+	  padding-top: 0px;
+      color: #008ae6;
+    }
+
+.sidebar.--collapsed .sidebar-content {
+      margin-left: auto;
+      font-size: 5px;
+      color: blue;
+    }
+	
+.sidebar .div.element-container .div.Widget.row-widget.stSelectbox{
+  color: #008ae6;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
