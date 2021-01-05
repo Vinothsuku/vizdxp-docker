@@ -23,8 +23,6 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 local_css("style.css")
 
 st.markdown('<style>div.Widget.row-widget.stRadio> div{flex-direction:row;}</style>', unsafe_allow_html=True)
-# st.markdown('<img src="https://www.google-analytics.com/collect?v=1&tid=UA-176305661-1&cid=555&aip=1&t=event&ec=visualize&ea=open&dp=visualdataexplorer&dt=vizdxp">', unsafe_allow_html=True)
-st.markdown('<img src="https://www.google-analytics.com/collect?v=1&tid=UA-176305661-1&cid=555&aip=1&t=pageview&dl=https%3A%2F%2Fvizdxp.herokuapp.com">', unsafe_allow_html=True)
 
 header1 = "<div><span class='highlight darkblue'><span class='bold'>Dataset stats</span></span> </div>"
 header2 = "<div><span class='highlight darkblue'><span class='bold'>Visual Data Explorer</span> </span></div>"
